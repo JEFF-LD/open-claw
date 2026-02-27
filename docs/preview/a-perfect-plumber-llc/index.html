@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A Perfect Plumber LLC | Denver CO</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',system-ui,sans-serif;color:#1a1a1a;line-height:1.6}
+.hero{background:#1565C0;color:#ffffff;padding:80px 24px 72px;text-align:center}
+.hero h1{font-size:2.2rem;font-weight:700;margin-bottom:12px;max-width:640px;margin-left:auto;margin-right:auto}
+.hero p{font-size:1.15rem;opacity:.9;max-width:520px;margin:0 auto 28px}
+.stars{font-size:1.1rem;margin-bottom:24px;letter-spacing:1px}
+.stars .num{font-weight:700;font-size:1.3rem}
+.btn{display:inline-block;padding:14px 36px;background:#fff;color:#1565C0;border-radius:8px;text-decoration:none;font-weight:600;font-size:1rem;transition:transform .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn-outline{background:transparent;border:2px solid #ffffff;color:#ffffff}
+section{max-width:880px;margin:0 auto;padding:64px 24px}
+section h2{font-size:1.6rem;font-weight:700;margin-bottom:32px;text-align:center}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.svc{border:1px solid #e5e5e5;border-radius:10px;padding:24px;transition:box-shadow .2s}
+.svc:hover{box-shadow:0 4px 16px rgba(0,0,0,.08)}
+.svc h3{font-size:1.05rem;margin-bottom:6px;color:#1565C0}
+.svc p{color:#555;font-size:.95rem}
+.reviews{background:#fafafa;text-align:center;padding:56px 24px}
+.reviews h2{margin-bottom:20px}
+.reviews .rating{font-size:1.3rem;margin-bottom:24px}
+.reviews .rating .stars-display{letter-spacing:2px}
+.reviews blockquote{max-width:560px;margin:0 auto 24px;font-style:italic;color:#444;font-size:1.05rem;line-height:1.7;padding:20px 28px;background:#fff;border-radius:10px;border-left:4px solid #1565C0}
+.reviews blockquote footer{font-style:normal;font-size:.85rem;color:#888;margin-top:10px}
+.review-themes{list-style:none;display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:20px;max-width:560px;margin-left:auto;margin-right:auto}
+.review-themes li{background:#fff;border:1px solid #e0e0e0;border-radius:20px;padding:8px 18px;font-size:.9rem;color:#555}
+.trust{background:#f8f8f8;text-align:center;padding:48px 24px}
+.trust h2{margin-bottom:16px}
+.trust p{color:#666;max-width:560px;margin:0 auto}
+#quote{background:#f8f8f8}
+.form{max-width:440px;margin:0 auto}
+.form input,.form select,.form textarea{width:100%;padding:13px 16px;margin-bottom:14px;border:1px solid #d0d0d0;border-radius:8px;font-size:.95rem;font-family:inherit}
+.form button{width:100%;padding:15px;background:#1565C0;color:#fff;border:none;border-radius:8px;font-size:1.05rem;font-weight:600;cursor:pointer;transition:opacity .15s}
+.form button:hover{opacity:.9}
+footer{background:#1a1a1a;color:#888;text-align:center;padding:40px 24px;font-size:.85rem}
+footer a{color:#bbb}
+.sticky{position:fixed;bottom:0;left:0;right:0;background:#1565C0;padding:14px;text-align:center;z-index:100;box-shadow:0 -2px 12px rgba(0,0,0,.15)}
+.sticky a{color:#ffffff;margin:0 16px;text-decoration:none;font-weight:600;font-size:.95rem}
+@media(max-width:600px){
+  .hero{padding:56px 16px 48px}
+  .hero h1{font-size:1.5rem}
+  section{padding:48px 16px}
+  .reviews blockquote{padding:16px 20px}
+}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="stars">★★★★★ <span class="num">5.0</span> from 513 reviews</div>
+  <h1>Plumbing Services in Denver CO</h1>
+  <p>Trusted by local homeowners for responsive service.</p>
+  <a href="#quote" class="btn">Get a Free Quote</a>
+</div>
+
+<section>
+  <h2>Our Services</h2>
+  <div class="grid"><div class="svc"><h3>Drain Cleaning</h3><p>Professional drain clearing for sinks, tubs, and main lines.</p></div>
+<div class="svc"><h3>Water Heater Service</h3><p>Tank and tankless water heater installation and repair.</p></div>
+<div class="svc"><h3>Leak Repair</h3><p>Fast detection and repair of hidden and visible leaks.</p></div>
+<div class="svc"><h3>Repiping</h3><p>Full and partial repiping for aging plumbing systems.</p></div>
+<div class="svc"><h3>Sewer Line Service</h3><p>Sewer inspection, cleaning, and trenchless repair.</p></div>
+<div class="svc"><h3>Fixture Installation</h3><p>Faucets, toilets, garbage disposals, and more.</p></div>
+</div>
+</section>
+
+<div class="reviews">
+  <h2>Trusted by 513 Local Customers</h2>
+  <div class="rating">
+    <span class="stars-display">★★★★★</span>
+    <span>5.0 from 513 reviews</span>
+  </div>
+  <blockquote>
+    &ldquo;Visit 1 for leak detection visit -  Dennis was super helpful! Thank you!  **Update** 12/23  Tankless Water Heater Installation -  Dale and his team at Perfect Plumber were outstanding from start...&rdquo;
+    <footer>&mdash; Amy G., 2025-12, (Google Review)</footer>
+  </blockquote>
+  <ul class="review-themes"><li>responsive service</li><li>fair pricing</li><li>clean work</li></ul>
+</div>
+
+<div class="trust">
+  <h2>Serving Denver CO</h2>
+  <p>Trusted by homeowners across the area. Licensed, insured, and committed to quality work on every job.</p>
+</div>
+
+<section id="quote">
+  <h2>Get a Free Plumbing Estimate</h2>
+  <div class="form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="tel" placeholder="Phone Number" required>
+    <input type="email" placeholder="Email Address">
+    <select><option value="">Select a Service...</option><option>Drain Cleaning</option><option>Water Heater Service</option><option>Leak Repair</option><option>Repiping</option><option>Sewer Line Service</option><option>Fixture Installation</option></select>
+    <textarea rows="3" placeholder="Describe your project..."></textarea>
+    <button type="button">Request My Free Quote</button>
+  </div>
+</section>
+
+<footer>
+  <p>A Perfect Plumber LLC &mdash; Denver CO</p>
+  <p style="margin-top:8px"><a href="tel:+17203753900">+17203753900</a></p>
+  <p style="margin-top:16px;font-size:.75rem">Preview site built by OpenClaw</p>
+</footer>
+
+<div class="sticky">
+  <a href="tel:+17203753900">Call Now</a>
+  <a href="#quote">Get Quote</a>
+</div>
+</body>
+</html>
